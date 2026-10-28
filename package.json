@@ -1,0 +1,19 @@
+{
+  "name": "neon-scraper",
+  "version": "1.0.0",
+  "description": "Ferramenta local de prospeção B2B no Google Maps com estética Retro-Futurista CRT",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "install:all": "npm install && cd frontend && npm install"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "open": "^8.4.2",
+    "playwright": "^1.45.0",
+    "sqlite3": "^5.1.7"
+  }
+}
